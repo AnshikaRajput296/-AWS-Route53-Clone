@@ -2,6 +2,14 @@
 
 A full-stack AWS Route 53 experience built for the Scaler SDE full-stack assignment. It recreates the hosted-zone and DNS-record workflows with mocked authentication, a FastAPI backend, and SQLite persistence.
 
+### Hosted zones
+
+![Hosted zones page](docs/images/hosted-zones.png)
+
+### DNS records
+
+![DNS records page](docs/images/records.png)
+
 ## Requirements
 
 - Python 3.11+
