@@ -131,7 +131,7 @@ async def lifespan(_: FastAPI):
 app = FastAPI(title="Route53 Clone API", version="1.0.0", lifespan=lifespan)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000","https://aws-route53-clone-64i6m44vp-anshikarajput027-gmailcoms-projects.vercel.app"],
+    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000","https://aws-route53-clone-3be52tswz-anshikarajput027-gmailcoms-projects.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
